@@ -1,13 +1,15 @@
 main section fieldset.accueil 
 {
     height: 100px;
-    width: 800px;
+    width: 1000px;
     border-collapse: collapse;
+    transition: 1s;
 }
 
 main section fieldset.accueil h4
 {
     color:gray;
+    transition: 1s;
 }
 
 body
@@ -25,7 +27,7 @@ main section img
 
 main section div.redirect a 
 {
-	display: flex;
+	display:block;
     justify-content: space-between;
     width: 60%;
 }
@@ -58,3 +60,51 @@ main section div.redirect a#focus-page
 	transition: 0.5s;
     border-radius: 20px;
 }
+
+@media only screen and (min-width: 800px) and (max-width: 966px)
+{
+    main section img {
+        width: 100%;
+        max-width: 966px;
+        min-width: 800px;
+    }
+    main section fieldset.accueil{
+        width: 100%;
+        max-width: 966px;
+        min-width: 800px;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 799px)
+{
+    main section img {
+        width: 100%;
+        max-width: 799px;
+        min-width: 321px;
+    }
+    main section fieldset.accueil{
+        width: 100%;
+        max-width: 799px;
+        min-width: 321px;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 320px)
+{
+    main section img 
+    {
+        width: 100%;
+        max-width: 320px;
+        min-width: none;
+    }
+    main section fieldset.accueil
+    {
+        width: 100%;
+        max-width: 320px;
+        min-width: none;
+        height: auto;
+    }
+}
+ 
