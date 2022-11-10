@@ -2,5 +2,4 @@
 
 Groupe : Nunzio Silarbi; tristan Unger; Louis Wittling; Mathias Notter; Alban Schoenfelder.
 
-Produit : Obljet en rapport avec le skateboard.
-
+Produit : Vente de skateboard

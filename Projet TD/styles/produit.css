@@ -50,7 +50,7 @@ button {
 #bouton2 {
     color: white;
     width: 300px;
-    margin-left: 30%;
+    margin-left: 30%;  /* recherche d'une meilleure méthode */
     background-color: blue;
 }
 
@@ -60,8 +60,16 @@ button:hover, a:hover {
 
 @media only screen and (min-width: 800px) and (max-width: 966px){
 
-.boutons{
-    flex-direction: row-reverse;
-}
+    .boutons{
+        flex-direction: row-reverse;
+    }
+
+    #bouton1{
+        margin-right: 10%;
+    }
+
+    #bouton2{
+        margin-left: 10%;
+    }
 
 }
