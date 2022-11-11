@@ -64,12 +64,13 @@ button:hover, a:hover {
         flex-direction: row-reverse;
     }
 
-    #bouton1{
+    /* #bouton1{
         margin-right: 10%;
-    }
+    } */
 
     #bouton2{
-        margin-left: 10%;
+        margin-right: 50px;
+        margin-left: 0%;
     }
 
 }
