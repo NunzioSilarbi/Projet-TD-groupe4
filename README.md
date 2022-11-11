@@ -10,7 +10,7 @@ Produit : Vente de skateboard
 |--------------------|-----------------------|
 | Nunzio | panier |
 | Tristan | Produit.js |
-| Louis| acceuil, login|
+| Louis| acceuil, login, footer, header|
 | Mathias | Toute les pages produit et css allant avec |
 | Alban | shop.hmtl shop.css |
 
