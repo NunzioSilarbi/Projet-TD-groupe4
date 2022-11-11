@@ -102,13 +102,16 @@ header nav div.box-header div.nav a#focus-page
 
 @media only screen and (min-width: 0px) and (max-width: 799px) {
     header nav div.box-header div.nav a#focus-page {
-        width: auto;
+        width: 100px;
+        
     }
     header nav div.box-header div.nav a:hover {
-        width: auto;
+        width: 100px;
+        
     }
     header nav div.box-header div.nav a{
-        width: auto;
+        width: 100px;
+        
     }
 }
 
@@ -159,7 +162,7 @@ header div.boxvideo div.box-header div.nav div.searchbar form.recherche input.bo
     
 }
 
-@media only screen and (min-width: 321px) and (max-width: 799px)
+@media only screen and (min-width: 391px) and (max-width: 799px)
 {
     div.nav
     {
@@ -167,7 +170,7 @@ header div.boxvideo div.box-header div.nav div.searchbar form.recherche input.bo
     }
 }
 
-@media only screen and (max-width: 320px)
+@media only screen and (max-width: 390px)
 {
     div.nav
     {
@@ -182,7 +185,7 @@ label
     display: none;
 }
  
-@media all and (min-width: 800px) and (max-width: 966px)
+@media all and (min-width: 390px) and (max-width: 966px)
 {
     nav a
     {
@@ -215,12 +218,11 @@ label, #toggle
     display: none;
 }
  
-@media only screen and (min-width: 0px) and (max-width: 799px)
+@media only screen and (min-width: 0px) and (max-width: 390px)
 {
     nav
     {
         height: 100px;
-        
     }
  
     nav .nav
@@ -229,12 +231,12 @@ label, #toggle
         flex-direction:column;
         background-color: #93441a79;
         margin-top: auto;
-        margin-left: 50%;
+        margin-left: 31%;
         float: right;
         justify-content: center;
     }
     nav .nav a {
-        width: 10%;
+        width: 20%;
         margin-top: 10px;
 
     }
@@ -245,7 +247,7 @@ label, #toggle
         
     }
 
-    /* bouton nav bar responsive*/
+    /* bouton nav bar responsive */
     .nav label 
     {
         width: 30px;
