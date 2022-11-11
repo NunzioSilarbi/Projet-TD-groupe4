@@ -8,7 +8,7 @@ Produit : Vente de skateboard
 
 | Membre             | tâche effectuées |
 |--------------------|-----------------------|
-| Nunzio | panier |
+| Nunzio | panier.html, panier.css, mise en forme des images |
 | Tristan | Produit.js, slider, une partie de page produit |
 | Louis| accueil, login, footer, header leurs responsive et leurs css|
 | Mathias | Toutes les pages produit et css allant avec |
