@@ -11,6 +11,7 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 25px;
+    position:relative;
 }
 .slider img {
     max-width: 100%;
@@ -18,9 +19,9 @@ body {
 }
 img.active {
     display: block;
-    animation: fade 0.8s;
     width: 400px;
     height: 400px;
+    animation: fade 0.8s;
 }
 @keyframes fade {
     from {
