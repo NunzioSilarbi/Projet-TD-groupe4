@@ -11,7 +11,7 @@ body
 .top{
   background-color: #bb6d43;
   text-align: center;
-  border: solid pink;
+  /*border: solid pink;*/
 }
 
 .left{
@@ -21,6 +21,7 @@ body
 
 .right{
   margin: auto;
+  
 }
 .bottom{
   display: flex;
@@ -32,8 +33,8 @@ body
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between; 
-  border: 2px solid black;
-  width: 100%;
+  /*border: 2px solid black;*/
+  width: 1200px;
 }
 
 p,
