@@ -40,7 +40,7 @@ img
   .wrap {
       width: 100%;
   }
-@media only screen and (min-width: 500px){
+@media only screen and (min-width: 930px){
   .floatleft {
       float:left;
       width: 50%;
