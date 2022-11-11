@@ -11,10 +11,6 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 25px;
-<<<<<<< Updated upstream
-=======
-    position:relative;
->>>>>>> Stashed changes
 }
 .slider img {
     max-width: 100%;
@@ -22,10 +18,7 @@ body {
 }
 img.active {
     display: block;
-<<<<<<< Updated upstream
     animation: fade 0.8s;
-=======
->>>>>>> Stashed changes
     width: 400px;
     height: 400px;
 }
