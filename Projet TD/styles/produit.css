@@ -17,12 +17,7 @@ body {
     max-width: 100%;
     display: none;
 }
-img.active {
-    display: block;
-    width: 400px;
-    height: 400px;
-    animation: fade 0.8s;
-}
+
 @keyframes fade {
     from {
       opacity: 0;
@@ -31,6 +26,7 @@ img.active {
       opacity: 1;
     }
 }
+
 .prec, .suiv {
   cursor: pointer;
   position: absolute;
@@ -57,44 +53,33 @@ img.active {
     margin: 0 auto;
 }
 
-.box{
-    display: flex;
-    width: 200px;
-    border: 5px solid black;
-    justify-content: space-between;
-}
-
-#Skate_IUT {
-    width: 500px;
-    height: 500px;
-}
-
 .boutons {
     display: flex;
+    flex-wrap: wrap;
+    gap: 3vh;
+
 }
 
 button {
     border: none;
-    /* outline: 0; */
-    /* display: inline-block; */
     padding: 15px;
     color: black;
     text-align: center;
-    /* cursor: pointer; */
-    /* width: 100%; */
     font-size: 18px;
+
 }
 
 #bouton1 {
     color: white;
     width: 300px;
     background-color: #000;
+    
 }
 
 #bouton2 {
     color: white;
     width: 300px;
-    margin-left: 30%;  /* recherche d'une meilleure méthode */
+    /* recherche d'une meilleure méthode */
     background-color: blue;
 }
 
@@ -102,19 +87,48 @@ button:hover, a:hover {
     opacity: 0.7;
 }
 
-@media only screen and (min-width: 800px) and (max-width: 966px){
+.texte{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    display: flex;
+    width: 200px;
+    border: 5px solid black;
+    justify-content: space-between;
+}
+
+img.active {
+    display: block;
+    animation: fade 0.8s;
+    width: 500px;
+    height: 500px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 391px){
 
     .boutons{
-        flex-direction: row-reverse;
+        flex-direction: row;
     }
 
-    /* #bouton1{
-        margin-right: 10%;
-    } */
+    .boutons p{
+        display: flex;
+        justify-content: center;
 
-    #bouton2{
-        margin-right: 50px;
-        margin-left: 0%;
     }
+
+}
+
+
+
+@media only screen and (min-width: 391px) and (max-width: 700px){
+
+
+}
+
+@media only screen and (min-width: 391px) and (max-width: 1920){
+
+
 
 }
