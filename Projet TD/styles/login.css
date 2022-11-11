@@ -37,3 +37,29 @@ main section div.login form.login div.button button:focus {
 main section div.login form.login div.button button:active {
     background-color: rgb(185, 185, 185);
 }
+
+
+@media only screen and (min-width:0px) and (max-width:390px) {
+
+    main section div.login label h4{
+        color: black;
+        font-size: large;
+        text-align: center;
+    }
+
+    main section div.login form.login div.username input.username {
+    padding: 15px 20px;
+    }
+
+    main section div.login form.login div.mail input.mail {
+        padding: 15px 20px;
+    }
+
+    main section div.login form.login div.nbtel input.nbtel {
+        padding: 15px 20px;
+    }
+
+    main section div.login form.login div.mdp input.mdp {
+        padding: 15px 20px;
+    }
+}
