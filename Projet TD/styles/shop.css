@@ -15,7 +15,7 @@ body
 }
 
 .left{
-  width: 25%;
+  width: 20%;
   border: 2px solid blue;  
 }
 
@@ -47,6 +47,7 @@ input {
 
 .filtre{
   font: 1rem 'Fira Sans', sans-serif;
+  
 }
 
 
