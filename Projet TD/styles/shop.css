@@ -16,7 +16,14 @@ body
 
 .left{
   width: 20%;
-  border: 2px solid blue;  
+  /*border: 2px solid blue;*/
+
+}
+
+.checkbox{
+  /*border: 2px solid black;*/
+  flex-direction: column;
+  display: flex;
 }
 
 .right{
@@ -46,11 +53,24 @@ input {
     margin: .4rem;
 }
 
-.filtre{
-  font: 1rem 'Fira Sans', sans-serif;
-  
+.checkbox{
+  font-size: large;
+  font:'Fira Sans', sans-serif;
+  margin: auto;
 }
 
+.filtre{
+  font: 1rem 'Fira Sans', sans-serif;
+  width: 50%;
+  /*border: 2px solid purple;*/
+  margin: auto;
+  flex-direction: column;
+}
+
+.titre{
+  text-decoration: underline;
+  text-underline-position: auto;
+}
 
 /*CSS de la card du produit */
 .skate {
