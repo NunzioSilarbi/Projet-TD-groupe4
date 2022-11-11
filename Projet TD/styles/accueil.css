@@ -67,12 +67,15 @@ main section div.redirect a#focus-page
         width: 100%;
         max-width: 966px;
         min-width: 800px;
+        margin: 10px 10px 10px;
     }
     main section fieldset.accueil{
         width: 100%;
         max-width: 966px;
         min-width: 800px;
         height: auto;
+        margin: 10px 10px 10px 10px;
+        margin: 10px 10px 10px;
     }
 }
 
@@ -82,12 +85,14 @@ main section div.redirect a#focus-page
         width: 100%;
         max-width: 799px;
         min-width: 321px;
+        margin: 10px 10px 10px;
     }
     main section fieldset.accueil{
         width: 100%;
         max-width: 799px;
         min-width: 321px;
         height: auto;
+        margin: 10px 10px 10px;
     }
 }
 
@@ -98,6 +103,7 @@ main section div.redirect a#focus-page
         width: 100%;
         max-width: 320px;
         min-width: none;
+        margin: 10px 10px 10px;
     }
     main section fieldset.accueil
     {
@@ -105,6 +111,7 @@ main section div.redirect a#focus-page
         max-width: 320px;
         min-width: none;
         height: auto;
+        margin: 10px 10px 10px;
     }
 }
  
