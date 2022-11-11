@@ -58,6 +58,16 @@ footer
 	box-sizing: border-box;
 	width: 50px;
 }
+footer .footer-col form input {
+	padding: 10px 15px;
+	border-collapse: collapse;
+}
+
+footer .footer-col form button {
+	border-collapse: collapse;
+	margin-top: 5px;
+	padding: 10px 70px;
+}
 
 footer ul
 {

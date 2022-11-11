@@ -100,6 +100,18 @@ header nav div.box-header div.nav a#focus-page
     border-radius: 20px;
 }
 
+@media only screen and (min-width: 0px) and (max-width: 799px) {
+    header nav div.box-header div.nav a#focus-page {
+        width: auto;
+    }
+    header nav div.box-header div.nav a:hover {
+        width: auto;
+    }
+    header nav div.box-header div.nav a{
+        width: auto;
+    }
+}
+
 /* CSS Header Info centre */
 
 div.box-info
@@ -142,18 +154,17 @@ header div.boxvideo div.box-header div.nav div.searchbar form.recherche input.bo
     div.nav
     {
         display: block;
-        background-color: red;
     }
+
+    
 }
 
-@media only screen (min-width: 321px) and (max-width: 799px)
+@media only screen and (min-width: 321px) and (max-width: 799px)
 {
     div.nav
     {
         display: block;
-        
     }
-    
 }
 
 @media only screen and (max-width: 320px)
@@ -161,6 +172,96 @@ header div.boxvideo div.box-header div.nav div.searchbar form.recherche input.bo
     div.nav
     {
         display: block;
-        background-color: blue;
+        background-color: white;
+        width: auto;
     }
 }
+
+label
+{
+    display: none;
+}
+ 
+@media all and (min-width: 800px) and (max-width: 966px)
+{
+    nav a
+    {
+        height: 60px;
+        margin-top: auto;
+        margin-right: 10px;
+    }
+ 
+    nav .nav 
+    {
+        display: none;
+        
+    }
+ 
+    label 
+    {
+        width: 30px;
+        display: flex;
+        justify-content: right;
+        align-items: right;
+        margin: 0 auto;
+        font-size: 40px;
+        color: white;
+        cursor: pointer;
+    }
+}
+
+label, #toggle
+{
+    display: none;
+}
+ 
+@media only screen and (min-width: 0px) and (max-width: 799px)
+{
+    nav
+    {
+        height: 100px;
+        
+    }
+ 
+    nav .nav
+    {
+        display: flex;
+        flex-direction:column;
+        background-color: #93441a79;
+        margin-top: auto;
+        margin-left: 50%;
+        float: right;
+        justify-content: center;
+    }
+    nav .nav a {
+        width: 10%;
+        margin-top: 10px;
+
+    }
+    #toggle:checked + .nav {
+        display: flex;
+        margin-left: 10px;
+        margin-left: 50%;
+        
+    }
+
+    /* bouton nav bar responsive*/
+    .nav label 
+    {
+        width: 30px;
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 20% ;
+        font-size: 50px;
+        color: rgb(255, 255, 255);
+        cursor:pointer;
+        height: 100px;
+        float: none;
+        text-align: center;
+    }
+
+    
+ 
+}
+ 
