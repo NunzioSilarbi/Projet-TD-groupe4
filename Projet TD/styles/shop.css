@@ -3,8 +3,55 @@ body
     background-color: #ffe97a;
 }
 
-/*CSS de la card du skate 1*/
-.skate1 {
+.content{
+  display: flex;
+  flex-direction: column;
+}
+
+.top{
+  background-color: #bb6d43;
+  text-align: center;
+  border: solid pink;
+}
+
+.left{
+  width: 25%;
+  border: 2px solid blue;  
+}
+
+.right{
+  margin: auto;
+}
+.bottom{
+  display: flex;
+  flex-direction: row;
+}
+
+.contenair {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between; 
+  border: 2px solid black;
+  width: 100%;
+}
+
+p,
+label {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input {
+    margin: .4rem;
+}
+
+.filtre{
+  font: 1rem 'Fira Sans', sans-serif;
+}
+
+
+/*CSS de la card du produit */
+.skate {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
     margin: auto;
@@ -12,13 +59,13 @@ body
     background-color: #93441A;
   }
 
-main section div.skate1 img
+main section div.skate img
 {
     width: 300px;
     height: 300px;
 }
 
-main section div.skate1 p {
+main section div.skate p {
     color: white;
 }
   
@@ -49,4 +96,5 @@ main section div.skate1 p {
   button:hover, a:hover {
     opacity: 0.7;
   }
-  /*Fin du CSS pour le skate 1*/
+/*Fin du CSS pour le produit */
+
